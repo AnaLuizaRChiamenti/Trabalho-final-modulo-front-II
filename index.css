@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: rgba(12, 12, 233, 0.302);
+}
+
+main {
+    background-image: url();
+    background-position: center;
+}
+
+.card-login {
+    width: 35%;
+    height: min-content;
+    padding: 20px;
+    border-radius: 10%;
+    background-color: rgba(0, 0, 0, 0.665);
+}
+
+.card-login h1 {
+    font-size: 3.6rem;
+    margin-bottom: 15%;
+}
+
+.card-login form {
+    font-size: 1.8rem;
+}
+
+.card-login form .form-group {
+    margin-bottom: 12px;
+}
+
+.card-login form input[type="submit"] {
+    margin-top: 12px
+}
+
+.card-login form input {
+    font-size: 1.8rem;
+}
+
+
+.btn-link {
+    font-size: 1.6rem;
+}
+
+.modal {
+    font-size: 2rem;
+}
+
+.modal-footer button {
+    font-size: 1.6rem;
+}
+
+.modal-body .form-group input {
+    font-size: 1.6rem;
+}
