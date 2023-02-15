@@ -16,25 +16,6 @@ table {
     border-radius: 2%;
 }
 
-.animacao {
-    animation-duration: 3s;
-    animation-name: slidein ;
-    color: rgb(186, 104, 200);
-}
-
-@keyframes slidein {
-    from {
-        margin-left: 100%;
-        width: 300%;
-        color: rgb(0, 0, 0);
-    }
-
-    to {
-        margin-left: 0%;
-        width: 100%;
-        color: rgb(186, 104, 200);
-    }
-}
 
 .float-button {
     height: 50px;

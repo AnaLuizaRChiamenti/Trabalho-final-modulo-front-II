@@ -17,6 +17,20 @@ body {
     margin-bottom: 20%;
     margin: 0 !important;
     padding: 0 !important;
+    color: black;
+    animation: titulo 3s infinite;
+}
+
+@keyframes titulo {
+    0% {
+        color: rgb(6, 6, 6);
+    }
+    50% {
+        color: rgb(186, 104, 200);
+    }
+    100% {
+        color: rgb(6, 6, 6)
+    }
 }
 
 .card-login form,
@@ -67,3 +81,4 @@ p {
         width: 100%;
     }
 }
+
