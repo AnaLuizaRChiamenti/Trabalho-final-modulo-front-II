@@ -139,22 +139,7 @@ function mostrarRecadosNoHTML() {
     })
 }
 
-function mostrarAlerta(tipo, mensagem) {
 
-    toastDiv.classList.add(`text-bg-${tipo}`)
-
-    const espacoMensagem = document.getElementById('espaco-mensagem')
-    espacoMensagem.innerHTML = mensagem
-
-    toastBS.show()
-
-    setTimeout(() => {
-        toastBS.hide()
-
-        toastDiv.classList.remove(`text-bg-${tipo}`)
-    }, 5000)
-
-}
 
 function deslogar() {
     localStorage.removeItem('usuarioLogado');
@@ -164,12 +149,12 @@ function deslogar() {
 
 function salvarRecados() {
     const listaUsuario = buscarDadosDoLocalStorage('Lista-Usuarios')
-    
+
 
     const acharUsuario = listaUsuario.findIndex((valor) => valor.email === usuarioLogado.email)
 
     listaUsuario[acharUsuario].recados = usuarioLogado.recados
-    
+
     guardarNoLocalStorage('Lista-Usuarios', listaUsuario)
 }
 
