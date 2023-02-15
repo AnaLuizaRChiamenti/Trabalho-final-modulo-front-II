@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(234, 209, 238);
+    font-family: 'Comfortaa', cursive;
+}
+
+.width-login {
+    width: 75%;
+}
+
+.card-login h1 {
+    font-size: 1.8rem !important;
+    margin-bottom: 20%;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.card-login form,
+.card-login input {
+    font-size: 1.2rem;
+}
+
+.card-login input {
+    height: 40px !important;
+}
+
+
+.card-login form input[type="submit"] {
+    margin-top: 10% !important;
+    width: 150px !important;
+    height: 20% !important;
+    background-color: rgb(234, 209, 238);
+    color: black;
+    border: 0;
+}
+
+.card-login form input[type="submit"]:hover {
+    background-color: rgb(186, 104, 200);
+}
+
+
+p {
+    font-size: 1rem !important;
+}
+
+
+.btn-link {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: rgb(186, 104, 200);
+}
+
+.btn-link:hover {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: rgb(186, 104, 200);
+}
+
+
+
+@media (max-width: 500px) {
+    .card-login {
+        width: 100%;
+    }
+}
