@@ -164,6 +164,7 @@ function deslogar() {
 
 function salvarRecados() {
     const listaUsuario = buscarDadosDoLocalStorage('Lista-Usuarios')
+    
 
     const acharUsuario = listaUsuario.findIndex((valor) => valor.email === usuarioLogado.email)
 

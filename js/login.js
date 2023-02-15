@@ -68,6 +68,7 @@ formularioHTML.addEventListener('submit', (evento) => {
 
         return;
     }
+    
 
     const novoCadastro = {
         email: email,
