@@ -1,3 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+
+table {
+    border-radius: 2%;
+}
+
 .float-button {
     height: 50px;
     width: 50px;
@@ -11,4 +29,9 @@
     position: fixed;
     right: 40px;
     top: 20px;
+}
+
+#deslogar {
+    position: relative;
+    left: 20%;
 }
