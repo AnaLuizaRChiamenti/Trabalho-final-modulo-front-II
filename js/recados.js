@@ -69,7 +69,6 @@ formAtualizar.addEventListener('submit', (ev) => {
     modalEditar.hide()
     formAtualizar.classList.remove('was-validated')
     formAtualizar.reset()
-    mostrarAlerta('success', 'Contato atualizado com sucesso!')
     indiceAtualizacao = -1
 
 })
