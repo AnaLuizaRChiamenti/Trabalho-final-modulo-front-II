@@ -15,26 +15,32 @@
 </head>
 
 <body>
-    <header class="container-fluid row mt-5 w-100 h-10">
-        <h1 class="w-100 h-100 d-flex align-items-center justify-content-center animacao" >Página de Recados</h1> 
-        <button class="btn row p-0 mx-5 border-0  " onclick="deslogar()" id="deslogar"><i
-            class="bi bi-box-arrow-left fs-3"></i></button>
+    <header class="container-fluid">
+        <div class="row h-100">
+            <div class="col">
+                <h1 class="w-100 h-100 d-flex align-items-center">Página de Recados</h1>
+            </div>
+            <button class="btn row p-0 border-0 m-0 w-25" onclick="deslogar()" id="deslogar">
+                <i class="bi bi-box-arrow-left fs-3"></i></button>
+        </div>
     </header>
-    <main class="container-fluid d-flex justify-content-center align-items-center ">
-        <section class="row vw-100 vh-75">
-            <table class="col table table-hover w-100 h-100 table-responsive-sm bg-white">
-                <thead>
-                    <tr>
-                        <th scope="col">ID</th>
-                        <th scope="col">Recado</th>
-                        <th scope="col">Detalhamento</th>
-                        <th scope="col">Ações</th>
-                    </tr>
-                </thead>
-                <tbody id="lista-recados">
 
-                </tbody>
-            </table>
+    <main class="container">
+        <section class="row d-flex justify-content-center">
+            <div class="col col-xs-1 col-md-10 p-0">
+                <table class="col table table-hover w-100 h-100 table-responsive-sm bg-white">
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Recado</th>
+                            <th scope="col">Detalhamento</th>
+                            <th scope="col">Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody id="lista-recados">
+                    </tbody>
+                </table>
+            </div>
         </section>
     </main>
 
