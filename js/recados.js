@@ -95,7 +95,7 @@ function apagarRecado(indiceRecado, idRecado) {
     trExcluir.remove()
 
     modalExcluir.hide()
-
+    mostrarRecadosNoHTML()
 }
 
 function mostrarModalAtualizar(indiceRecado) {
