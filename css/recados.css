@@ -3,17 +3,20 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
-
 }
 
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(234, 209, 238);
+
 }
 
 
 table {
-    border-radius: 2%;
+    position: relative;
+    border-radius: 41px;
+    text-align: center;
+    top: 80px;
 }
 
 
@@ -23,12 +26,10 @@ table {
     position: fixed;
     right: 40px;
     bottom: 40px;
+    background-color: black;
+    border: none;
 }
 
-
-.toast-position {
-    position: fixed;
-    right: 40px;
-    top: 20px;
+.float-button:hover {
+    background-color: rgb(186, 104, 200);
 }
-
