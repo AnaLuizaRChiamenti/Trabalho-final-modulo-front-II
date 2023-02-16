@@ -90,14 +90,12 @@ function mostrarModalExcluir(indiceRecado, idRecado) {
 
 function apagarRecado(indiceRecado, idRecado) {
     usuarioLogado.recados.splice(indiceRecado, 1)
-
     guardarNoLocalStorage('usuarioLogado', usuarioLogado)
 
     const trExcluir = document.getElementById(idRecado)
     trExcluir.remove()
 
     modalExcluir.hide()
-    mostrarAlerta('success', 'Recado excluido com sucesso!')
 
 }
 
@@ -149,7 +147,6 @@ function deslogar() {
 
 function salvarRecados() {
     const listaUsuario = buscarDadosDoLocalStorage('Lista-Usuarios')
-
 
     const acharUsuario = listaUsuario.findIndex((valor) => valor.email === usuarioLogado.email)
 
