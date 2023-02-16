@@ -10,6 +10,25 @@ body {
 
 .width-login {
     width: 75%;
+
+}
+
+figure {
+    animation: login 4s linear infinite !important;
+}
+
+@keyframes login {
+    0% {
+        box-shadow: rgb(234, 209, 238) 0px 5px 15px;
+    }
+
+    50% {
+        box-shadow: rgb(186, 104, 200) 0px 5px 15px;
+    }
+
+    100% {
+        box-shadow: rgb(234, 209, 238) 0px 5px 15px;
+    }
 }
 
 .card-login h1 {
@@ -25,9 +44,11 @@ body {
     0% {
         color: rgb(6, 6, 6);
     }
+
     50% {
         color: rgb(186, 104, 200);
     }
+
     100% {
         color: rgb(6, 6, 6)
     }
@@ -81,4 +102,3 @@ p {
         width: 100%;
     }
 }
-

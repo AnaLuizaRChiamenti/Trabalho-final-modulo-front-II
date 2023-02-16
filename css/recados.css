@@ -8,9 +8,12 @@
 
 body {
     background-color: rgb(234, 209, 238);
-
 }
 
+h1 {
+    position: relative;
+    top: 20px;
+}
 
 table {
     position: relative;
